@@ -1,4 +1,9 @@
 
+
+# data split-up
+#   training - 70% 
+#   testing - 30%
+
 # NAIVE BAYE'S PERFORMANCE
  
 # training the model
