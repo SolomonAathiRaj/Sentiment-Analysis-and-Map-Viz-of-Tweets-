@@ -715,7 +715,6 @@ shinyServer(function(input, output, session) {
 }) 
   
 
-#rm(list = setdiff(ls(), lsf.str()))  
   
 
 
