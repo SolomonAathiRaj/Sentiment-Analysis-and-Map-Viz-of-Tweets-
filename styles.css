@@ -1,0 +1,41 @@
+
+img{
+    display: block;
+    margin: 0 auto;
+}
+
+body {
+    background-color: #D3D3D3;
+}
+
+
+
+p {
+    color: black;
+    font-family: "Times New Roman";
+    font-size: 16pt;
+    line-height: 1.0cm;
+    letter-spacing: 1px;
+    text-align: center;
+
+}
+
+p.uppercase {
+    text-transform: uppercase;
+}
+	
+
+
+pre{
+	font-family: "Times New Roman";
+	font-size: 12pt;
+	font-style: italic;
+	}
+
+title { 
+	display: block; 
+	font-size: 200%; 
+	font-weight: bold; 
+	  }
+
+
