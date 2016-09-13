@@ -3,4 +3,15 @@ This project “Prognostication of Box Office Talk using Twitter Corpus” predi
 
 The Bayesian classification is used as a probabilistic learning method (Naive Bayes text classification). Hence, Naive Bayes classifier is one basic algorithm in Machine Learning to classify text documents. It is a simple model for text classification based on ‘Bayes’ theorem’. It is the most efficient and frequently used algorithm for sentiment analysis.
 
-  ![alt tag](https://github.com/SolomonAathiRaj/Sentiment-Analysis-and-Map-Viz-of-Tweets-/blob/master/images/Bayes_rule.png)
+Bayes theorem provides a way of calculating posterior probability P(c|x) from P(c), P(x) and P(x|c). Look at the equation below:
+
+![alt tag](https://github.com/SolomonAathiRaj/Sentiment-Analysis-and-Map-Viz-of-Tweets-/blob/master/images/Bayes_rule.png)
+  
+* P(c|x) is the posterior probability of class (target) given predictor (attribute).
+* P(c) is the prior probability of class.
+* P(x|c) is the likelihood which is the probability of predictor given class.
+* P(x) is the prior probability of predictor.
+
+I've also analysed the same with **lexicons**.
+
+
