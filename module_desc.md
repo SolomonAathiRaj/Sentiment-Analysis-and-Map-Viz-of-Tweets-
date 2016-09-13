@@ -6,17 +6,20 @@ Twitter data. This includes update timelines, status data, and user information.
 to interact with Twitter Search and trends data. Hence, in order to extract tweets, we need a Twitter account and hence a Twitter 
 API to get our own access keys and authentication to use twitter data in our application.
 
+
 **Module 2: Establishing Connection to fetch tweets from twitter**
 
 The first step would be to establish an authorized connection with Twitter for getting tweets based on different search parameters. 
 It requires installation of R libraries such as “ROAuth” – an open standard authentication for R interface and “httr” – to handle 
 http requests.
 
+
 **Module 3: Retrieval of tweets to R Script**
 
 Once the connection is successfully established, we can fetch tweets with the help of twitter API to the working R script. One 
 can extract a maximum of 3200 tweets at a time from the site. If required more, one can execute the set of code 
 (that does fetching) in a loop.
+
 
 **Module 4: Sentiment analysis (Naïve Bayes) of tweets via ‘bar plot’ and ‘pie chart’**
 
@@ -30,18 +33,21 @@ we can visualize the emotions in a bar chart with x label as ‘emotions’ and 
 respective sentiment’ and visualizing the polarity in a piechart showing the volume of critics in the tweets which is done with 
 the help of “rCharts” library – an interactive javascript data visualization library in R.
 
+
 **Module 5: Formation of Word Cloud based on the occurrences of the word in the tweets**
 
 The word cloud is a graphical representation of frequently used words in a collection of text files. The height of each word in 
 this picture is an indication of frequency of occurrence of the word in the entire text. We turn the corpus into a structured data 
 by processing the texts by removing the numbers, stop words, punctuation, unicode characters, making all the words uniform 
 to lowercase and finally, unnecessary white spaces are stripped. Now, the frequency of every word is calculated in the resultant 
-data, sorted with respect to its frequency of occurrence, converted to a data frame and a cluster of words is formed.  
+data, sorted with respect to its frequency of occurrence, converted to a data frame and a cluster of words is formed. 
+
 
 **Module 6: Visualization of top most 10 frequency of occurrences of the words in the analysis via ‘bar plot’**
 
 From the very same data processed for creating the word cloud, we visualize the top most 10 frequency of occurrences of the words 
 by extracting the top 10 words with its frequency in the created data frame with “rCharts” library.
+
 
 **Module 7: Visualization of location of the tweets (the place where it was generated)**
 
@@ -49,6 +55,7 @@ Location of the tweets for a particular movie is tracked down by prompting the u
 location along with the radius (a coverage actually) until which the location of tweets is searched for. It is visualized with 
 the help of “leaflet” package. It is designed in a way that if the user places the pointer over the marker on the location, it 
 will display the name of the twitter user who tweeted the tweet.
+
 
 **Module 8: Integrating all the above components in Shiny RStudio dashboard**
 
