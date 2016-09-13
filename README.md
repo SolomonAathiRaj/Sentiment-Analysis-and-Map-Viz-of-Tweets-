@@ -18,8 +18,8 @@ People who are using the application deployed in shinyapps.io can view the overa
 
 Proposed system has been designed to suit well with user’s device (either it could be a smartphone or a desktop). 
 
-*Input data of this application would be the search term (with or without hastag), No. of tweets to use for analysis, language and (if the user wishes to see how many tweets been populated in an area) latitude and longitude of the place of tweets and the radius till how far the region should be covered. 
-*Output will be in a graphical format with bar chart, pie chart and Open Street Maps (OSM). 
+* Input data of this application would be the search term (with or without hastag), No. of tweets to use for analysis, language and (if the user wishes to see how many tweets been populated in an area) latitude and longitude of the place of tweets and the radius till how far the region should be covered. 
+* Output will be in a graphical format with bar chart, pie chart and Open Street Maps (OSM). 
 
 Both input and output have to be given in the shiny application. 
 
