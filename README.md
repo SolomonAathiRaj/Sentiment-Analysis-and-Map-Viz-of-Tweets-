@@ -28,3 +28,4 @@ The concept of localization and Internationalization is also possible with the p
 Pre-processing of data includes tag elimination, splitting the paragraph into words, stop word removal, punctuation, digits, white spaces, stemming, http/ftp elimination, @ and retweet(RT) symbol. Tag elimination eliminates all the html tags in the input data then split the paragraph into separate words. Stop word removal is the process of removing noun, adjective, adverb. Stemming removes suffixes in the words. After pre-processing the raw data redundant words are removed. Proposed system also includes word’s frequency where the no of occurrence of the word is calculated.
 
 
+![alt tag](https://github.com/SolomonAathiRaj/Sentiment-Analysis-and-Map-Viz-of-Tweets-/blob/master/images/sys_arch.png)
