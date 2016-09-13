@@ -14,4 +14,17 @@ Bayes theorem provides a way of calculating posterior probability P(c|x) from P(
 
 I've also analysed the same with **lexicons**.
 
+People who are using the application deployed in shinyapps.io can view the overall state of mind of tweeple and how far the movie has come up good with the help of bar and pie chart. They can also get to know where the tweets of tweeple have originated from, the top most 10 frequency of occurrences of words found in the analysis and the word cloud. 
+
+Proposed system has been designed to suit well with user’s device (either it could be a smartphone or a desktop). 
+
+*Input data of this application would be the search term (with or without hastag), No. of tweets to use for analysis, language and (if the user wishes to see how many tweets been populated in an area) latitude and longitude of the place of tweets and the radius till how far the region should be covered. 
+*Output will be in a graphical format with bar chart, pie chart and Open Street Maps (OSM). 
+
+Both input and output have to be given in the shiny application. 
+
+The concept of localization and Internationalization is also possible with the proposed system as the users can limit their region for fetching the tweets to be used in the analysis.  
+
+Pre-processing of data includes tag elimination, splitting the paragraph into words, stop word removal, punctuation, digits, white spaces, stemming, http/ftp elimination, @ and retweet(RT) symbol. Tag elimination eliminates all the html tags in the input data then split the paragraph into separate words. Stop word removal is the process of removing noun, adjective, adverb. Stemming removes suffixes in the words. After pre-processing the raw data redundant words are removed. Proposed system also includes word’s frequency where the no of occurrence of the word is calculated.
+
 
